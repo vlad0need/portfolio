@@ -43,7 +43,8 @@ const Header = () => {
           <div className="title__skills">
             <p>Tech Stack:</p>
             <div className="title__skills-icons">
-                <img src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git " alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git " alt="" />
+                <img className='mobile-stack' src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git&perline=5 " alt="" />
             </div>
           </div>
         </div>
