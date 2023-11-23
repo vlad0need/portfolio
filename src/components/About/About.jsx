@@ -11,7 +11,7 @@ const About = () => {
           <div className="about__description">
             <div className="heading">About me</div>
             <div className="heading__description">A dedicated Front-end Developer</div>
-            <p>As a Junior Front-End Developer with 1.5 years commercial experience, i possess an impressive arsenal of skills in HTML, CSS,
+            <p>As a Front-End Developer with commercial experience i possess an impressive arsenal of skills in HTML, CSS,
             JavaScript, Typescript, React, and SCSS. I excel in designing and maintaining responsive
             websites that offer a smooth user experience. My expertise lies in crafting dynamic,
             engaging interfaces through writing clean and optimized code and utilizing cutting-edge
