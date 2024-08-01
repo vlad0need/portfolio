@@ -5,6 +5,14 @@ import Project from './Project';
 const Portfolio = () => {
 
   const projects = [
+    {name: "Go-Surf",
+     description: "Example work with amination ",
+     stack: ["HTML", "CSS", "JS", "Vite", "GSAP"],
+     img: "/img/vladydev-go-surf.netlify.app_ копія.webp",
+     github: "https://github.com/vlad0need/Go-Surf",
+     liveDemo: "https://vladydev-go-surf.netlify.app/",
+     transLate: "-79%"
+    },
     {name: "Air Pods",
      description: "Still don't want new air pods s max? visit the presentation site, what does Apple know about presentations",
      stack: ["HTML", "CSS", "JS"],
