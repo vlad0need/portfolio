@@ -6,6 +6,9 @@ body {
     font-family: "Asap Condensed";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(212, 212, 212);
+  background-color: #464646;
+  
 }
 
 code {
@@ -35,7 +38,7 @@ time, mark, audio, video {
     outline:0;
     font-size:100%;
     vertical-align:baseline;
-    background:transparent;
+    
 }
 
 body {

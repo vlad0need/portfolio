@@ -2,22 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import '../../App.css';
 
 
-const Header = () => {
-  let text = "Hi, I'm Vlad Ovcharov. A passionate Front-end React Developer based in Kyiv, Ukraine."
-  let text1 = ""
-  const contentText = useRef('')
-  const animatedText = (i) => {
-    setTimeout(() => {
-      text1 += text[i]
-      contentText.current.textContent = text1
-    },50*i)
-  }
-  useEffect(() => {
-    for (let i = 0; i < text.length; i++ ){
-      animatedText(i)
-    }
-  })
 
+
+const Header = () => {
 
   return (
     <header id='Home' className="header">
@@ -25,8 +12,8 @@ const Header = () => {
         <div className="container">
           <div className="title__main">
             <div className="title__text">
-              <h1 className="title__text-title">Front-end React Developer 🇺🇦</h1>
-              <p ref={contentText} className="title__text-subtitle">
+              <h1 className="title__text-title"></h1>
+              <p className="title__text-subtitle">
                 
               </p>
               <span className="title__text-links">
@@ -38,13 +25,27 @@ const Header = () => {
                 </a>
               </span>
             </div>
-            <img  alt='' className="title__image" />
+            <div className="title__image"> </div>
           </div>
           <div className="title__skills">
             <p>Tech Stack:</p>
             <div className="title__skills-icons">
-                <img className='desktop-stack' src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git " alt="" />
-                <img className='mobile-stack' src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git&perline=5 " alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=html " alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=css" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=scss" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=tailwind" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=materialui" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=js" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=ts" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=react" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=next" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=redux" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=nodejs" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=webpack" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=postman" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=figma" alt="" />
+                <img className='desktop-stack' src="https://skillicons.dev/icons?i=git " alt="" />
+                {/* <img className='mobile-stack' src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git&perline=5 " alt="" /> */}
             </div>
           </div>
         </div>

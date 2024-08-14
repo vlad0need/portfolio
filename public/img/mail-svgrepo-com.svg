@@ -1,24 +1,4 @@
-<?xml version="1.0" ?>
-
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-
-<title/>
-
-<g id="Complete">
-
-<g id="mail">
-
-<g>
-
-<polyline fill="none" points="4 8.2 12 14.1 20 8.2" stroke="#3b3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-
-<rect fill="none" height="14" rx="2" ry="2" stroke="#3b3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="18" x="3" y="6.5"/>
-
-</g>
-
-</g>
-
-</g>
-
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 10.25L15 17.625L25 10.25" stroke="#D4D4D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.75 8.125H6.25C4.86929 8.125 3.75 9.24429 3.75 10.625V23.125C3.75 24.5057 4.86929 25.625 6.25 25.625H23.75C25.1307 25.625 26.25 24.5057 26.25 23.125V10.625C26.25 9.24429 25.1307 8.125 23.75 8.125Z" stroke="#D4D4D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

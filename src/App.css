@@ -1,6 +1,14 @@
 .header{
   min-height: 100vh;
-
+  width: 100%;
+}
+.App {
+  overflow: hidden;
+}
+.container__scroll {
+  display: flex;
+  width: 200%;
+  
 }
 .container{
   max-width: 1200px;
@@ -9,7 +17,7 @@
 }
 .heading{
   font-size: 24px;
-  color: rgb(59, 59, 255);
+  color: rgb(230, 84, 0);
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -39,7 +47,7 @@
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   transition: 0.7s;
 }
 .mobile-nav a{
@@ -63,14 +71,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  box-shadow: 0 30px 77px rgba(230,84,0,0.29);
   position: fixed;
   width: 100vw;
   top: 0;
   left: 0;
   height: 100px;
   font-size: 1.7rem;
-  background-color: white;
+  background-color: #464646;
   z-index: 100;
 }
 .menu__list{
@@ -86,7 +94,7 @@
 }
 .menu__logo a {
   text-decoration: none;
-  color: black;
+  color: rgb(230, 84, 0);
 }
 .menu__logo a:hover{
   animation-name: bounce;
@@ -95,19 +103,19 @@
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   display: inline-block;
-  color: rgb(59, 59, 255);
+  color: rgb(212, 212, 212);
   transition: 0.5s;
 }
 .menu__link a{
-  color: black;
+  color: rgb(230, 84, 0);
   text-decoration: none;
 }
 .menu__link:hover a{
-  color: rgb(59, 59, 255);
+  color: rgb(212, 212, 212);
   transition: 0.3s;
 }
 .title{
-background-color: #f9f9f9;
+background-color: #464646; /* #f9f9f9 */
 min-height: inherit;
 }
 .title__main{
@@ -122,6 +130,7 @@ max-width: 600px;
 }
 .title__text-title{
   font-size: 100px;
+  min-height: 200px;
 }
 .title__text-subtitle{
   margin-top: 10px;
@@ -181,7 +190,7 @@ max-width: 600px;
   margin-left: 20px;
 }
 .title__image{
-  background: url("./assets/img/IMG_0888-removebg.png");
+  background: url("./assets/img/IMG_0888-removebg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 72%;
@@ -219,16 +228,19 @@ max-width: 600px;
   font-size: 36px;
   font-weight: 600;
 }
-
+.title__skills-icons{
+  display: flex;
+  gap: 10px;
+}
 .project{
   display: flex;
   max-width: 100%;
   gap: 50px;
   padding: 20px 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 12px rgba(230,84,0,0.9);
   height: 400px;
   border-radius: 30px;
-  background-color: white;
+  /* background-color: white; */
 }
 .project:nth-child(even) {
   flex-direction: row-reverse;
@@ -255,7 +267,7 @@ max-width: 600px;
 }
 .project__description-description{
   font-size: 24px;
-  color:#656464;
+  /* color:#656464; */
   padding: 10px 40px 10px 0;
 }
 .project__description-stack{
@@ -268,7 +280,7 @@ max-width: 600px;
 }
 .project__description-stack p{
   display: inline-block;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 4.5px rgba(230,84,0,1);
   padding: 10px;
   font-size: 18px;
   border-radius: 12px;
@@ -284,7 +296,7 @@ max-width: 600px;
   align-items: center;
   font-size: 24px;
   text-decoration: none;
-  color: black;
+  color: rgb(230, 84, 0);
 }
 
 .project__description-links a:hover svg{
@@ -302,10 +314,11 @@ max-width: 600px;
   justify-content: space-between;
 }
 .portfolio{
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   padding: 80px 0;
 }
 .about{
+  width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -320,7 +333,7 @@ max-width: 600px;
 }
 .about__description p {
   font-size: 24px;
-  color:#656464;
+  /* color:#656464; */
   font-weight: 500;
   letter-spacing: 0.2px;
   word-spacing: 3px;
@@ -350,12 +363,12 @@ max-width: 600px;
 .contact__subtitle{
   font-size: 20px;
   text-decoration: none;
-  color: #656464;
+  color: rgb(230, 84, 0);
 }
 .contact__logo{
   padding: 10px;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(230,84,0,0.6);
   overflow: visible;
   display: inline-block;
   align-self: flex-start;

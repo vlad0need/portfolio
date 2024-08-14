@@ -8,7 +8,7 @@ const Portfolio = () => {
     {name: "Go-Surf",
      description: "Example work with amination ",
      stack: ["HTML", "CSS", "JS", "Vite", "GSAP"],
-     img: "/img/vladydev-go-surf.netlify.app_ копія.webp",
+     img: "/img/vladydev-go-surf.netlify.app.webp",
      github: "https://github.com/vlad0need/Go-Surf",
      liveDemo: "https://vladydev-go-surf.netlify.app/",
      transLate: "-79%"
