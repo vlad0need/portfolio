@@ -432,6 +432,7 @@ max-width: 600px;
   }
   .title__main h1{
     font-size: 70px;
+    min-height: auto;
   }
 }
 @media(max-width: 768px) {

@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header id='Home' className="header">
       <div className="title">
-        <div className="container">
+        <div className="container container-header">
           <div className="title__main">
             <div className="title__text">
               <h1 className="title__text-title"></h1>
@@ -45,7 +45,7 @@ const Header = () => {
                 <img className='desktop-stack' src="https://skillicons.dev/icons?i=postman" alt="" />
                 <img className='desktop-stack' src="https://skillicons.dev/icons?i=figma" alt="" />
                 <img className='desktop-stack' src="https://skillicons.dev/icons?i=git " alt="" />
-                {/* <img className='mobile-stack' src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git&perline=5 " alt="" /> */}
+                <img className='mobile-stack' src="https://skillicons.dev/icons?i=html,css,scss,tailwind,materialui,js,ts,react,next,redux,nodejs,webpack,postman,figma,git&perline=5 " alt="" />
             </div>
           </div>
         </div>

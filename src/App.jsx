@@ -28,7 +28,7 @@ function App() {
         scrub: 1,
         pin: true,
         anticipatePin: 1,
-        // ease: "none",
+        ease: "none",
 
       },
     })
